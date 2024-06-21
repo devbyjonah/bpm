@@ -1,0 +1,24 @@
+{
+  "name": "bpm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc-watch --onSuccess \"node dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.14.7",
+    "@types/semver": "^7.5.8",
+    "@types/tar": "^6.1.13",
+    "tsc-watch": "^6.2.0",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "axios": "^1.7.2",
+    "semver": "^7.6.2",
+    "tar": "^7.4.0"
+  }
+}
